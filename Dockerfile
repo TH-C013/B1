@@ -21,4 +21,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the app when the container launches
-CMD ["npm", "run", "start"] 
+CMD ["npm", "run", "start"]

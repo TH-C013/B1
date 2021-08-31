@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.8'
 
 services:
   api-server:
@@ -13,7 +13,7 @@ services:
       - /api/node_modules
     depends_on:
       - mongodb
-    env_file: .env_test
+    env_file: .env
     environment:
       - MONGO_HOSTNAME=$MONGO_HOSTNAME
       - MONGO_PORT=$MONGO_PORT

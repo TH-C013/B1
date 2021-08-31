@@ -1,4 +1,4 @@
-let mongoose = require('mongoose')1
+let mongoose = require('mongoose')
 let Schema = mongoose.Schema
 
 //student schema definition
