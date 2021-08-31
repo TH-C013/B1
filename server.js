@@ -6,7 +6,7 @@ let bodyParser = require('body-parser')
 var PORT = 8081
 let HOST = '0.0.0.0'
 let student = require('./controllers/routes/student')
-let config = require('config') //we load the db location from the JSON files
+let config = require('config') //we load the db location from the JSON filess
 
 //db connection
 // mongoose.Promise = global.Promise

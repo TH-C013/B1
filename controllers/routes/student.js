@@ -1,4 +1,4 @@
-let mongoose = require('mongoose')
+let mongoose = require('mongoose')1
 let Student = require('../models/student')
 
 /*
